@@ -1,5 +1,5 @@
 # css-animation-drill
-[Website](https://pedroseromenho.github.io/css-animation-drill/)
+[Website](https://pedroseromenho.github.io/css-animation-drill/index.html)
 
 ## Instructions
 
