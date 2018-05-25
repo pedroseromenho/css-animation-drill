@@ -22,5 +22,5 @@ As often with CSS, this is an exercise in precision and accuracy (and a zest of 
 
 ## Credits
 
-Exercise realised at Becode, proposed by Alex.
-@seromenho_pedro
+Exercise realised at Becode, proposed by @pixeline.
+@pedroseromenho
