@@ -1,10 +1,16 @@
 # css-animation-drill
-[Website's link](https://pedroseromenho.github.io/css-animation-drill/)
+[Website](https://pedroseromenho.github.io/css-animation-drill/)
 
 ## Instructions
 
 Build a complex animation, step by step.
 As often with CSS, this is an exercise in precision and accuracy (and a zest of dementia, because… CSS). To give a reliable visual assistant, use a technique that could be called “the image background guide Technique”.
+
+## Rules
+
+- Duration: 6 hours
+- Team: false
+- Repo: `css-animation-drill`
 
 ## Layout
 
@@ -22,5 +28,4 @@ As often with CSS, this is an exercise in precision and accuracy (and a zest of 
 
 ## Credits
 
-Exercise realised at Becode, proposed by [@pixeline](https://github.com/pixeline).
-[@pedroseromenho](https://github.com/pedroseromenho)
+Exercised by [me](https://github.com/pedroseromenho) realised at [Becode](https://becode.org), proposed by [@pixeline](https://github.com/pixeline).
