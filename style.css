@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#stage{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+}
+
+#hero{
+    position: relative;
+    box-sizing: border-box;
+    width: 75px;
+    height: 75px;
+    left: 20px;
+    top: 20px;
+    animation: hero 20s alternate infinite;
+    -webkit-animation: hero 20s alternate infinite;
+}
+
+@-webkit-keyframes hero {
+    0%   {left: 20px; top: 20px; -webkit-transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    25%  {left: 500px; top: 20px; -webkit-transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    50%  {left: 500px; top: 201px; -webkit-transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    52.50% {left: 270px; top: 201px; -webkit-transform: rotate(45deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    62.50% {left: 270px; top: 201px; -webkit-transform: rotate(45deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    75% {left: 20px; top: 205px; -webkit-transform: rotate(90deg); border: 1px dashed #0900BD; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    100% {bottom: 0px; right: 0px; -webkit-transform: rotate(90deg); border: none; border-radius: 150px; width: 150px; height: 150px; background: -webkit-radial-gradient(rgb(251, 218, 97), rgb(247, 107, 28));}
+}
+
+@keyframes hero {
+    0%   {left: 20px; top: 20px; transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    25%  {left: 500px; top: 20px; transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    50%  {left: 500px; top: 201px; transform: rotate(0deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    52.50% {left: 270px; top: 201px; transform: rotate(45deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    62.50% {left: 270px; top: 201px; transform: rotate(45deg); border: 1px dashed #FF0000; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    75% {left: 20px; top: 205px; transform: rotate(90deg); border: 1px dashed #0900BD; border-radius: 0px; width: 75px; height: 75px; background: transparent;}
+    100% {top: 442px; left: 442px; transform: rotate(90deg); border: none; border-radius: 150px; width: 150px; height: 150px; background: radial-gradient(rgb(251, 218, 97), rgb(247, 107, 28));}
+}
